@@ -1,5 +1,5 @@
 <?php
-// Configuración de la conexión a la base de datos (sin cambios)
+// Configuración de la conexión a la base de datos
 $servidor = "localhost";
 $usuario = "root";
 $clave = "";
@@ -96,6 +96,8 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     }
 }
 ?>
+
+// Creación del formulario
 
 <!DOCTYPE html>
 <html lang="es">
