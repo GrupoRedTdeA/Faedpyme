@@ -1,0 +1,139 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', Verdana, Geneva, Tahoma, sans-serif;
+    background-color: #b8b8ce;
+    color: #0e0808;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+
+header {
+    background-color: #1a571c;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2em;
+}
+
+header .descripcion {
+    font-size: 0.9em;
+    margin-top: 10px;
+}
+
+.logo-container img {
+    max-width: 500px;
+    height: auto;
+}
+
+/* Form Styles */
+form {
+    background: rgb(131, 121, 121);
+    padding: 20px;
+    margin: 20px auto;
+    max-width: 800px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+fieldset {
+    border: 1px solid #ddd;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+legend {
+    font-size: 1.2em;
+    font-weight: bold;
+    color: #1d4e1f;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group input[type="number"],
+.form-group select {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 1em;
+}
+
+.form-group input[type="radio"] {
+    margin-right: 10px;
+}
+
+.required {
+    color: red;
+}
+
+/* Table Styles */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+}
+
+table th, table td {
+    padding: 10px;
+    border: 1px solid #39641d;
+    text-align: center;
+}
+
+table th {
+    background-color: #75da67;
+    font-weight: bold;
+}
+
+/* Submit Button */
+.submit {
+    text-align: center;
+}
+
+.submit input[type="submit"] {
+    background-color: #43b947;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 1em;
+    cursor: pointer;
+}
+
+.submit input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    form {
+        padding: 15px;
+    }
+
+    fieldset {
+        padding: 15px;
+    }
+
+    .form-group input[type="text"],
+    .form-group input[type="email"],
+    .form-group input[type="number"],
+    .form-group select {
+        font-size: 0.9em;
+    }
+}
